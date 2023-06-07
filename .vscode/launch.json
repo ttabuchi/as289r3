@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "OpenOCD Debug",
+            "type": "cortex-debug",
+            "cwd": "${workspaceRoot}",
+            "executable": "build/a.elf",
+            "request": "launch",
+			"servertype": "openocd",
+			"configFiles": [
+				"E:/OpenOCD/xpack-openocd-0.11.0-2/scripts/board/pico-debug.cfg"
+			],
+        },
+    ]
+}
