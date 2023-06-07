@@ -2,4 +2,4 @@ build/
 freertos/
 .cache/
 libdmtx/
-cg/
+
